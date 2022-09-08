@@ -9,4 +9,3 @@ def test_the_presence_of_a_button(browser):
     button = len(browser.find_elements(By.CSS_SELECTOR, "button.btn-add-to-basket"))
     assert button == 1
     time.sleep(3)
-    browser.quit()
